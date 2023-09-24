@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.nba-teams {
+    margin: 0 0 0 10%;
+    width: 100%;
+}

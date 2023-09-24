@@ -1,0 +1,26 @@
+{
+    "name": "chartjs-example",
+    "version": "1.0.0",
+    "source": "src/index.js",
+    "main": "dist/main.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "devDependencies": {
+        "buffer": "^6.0.3",
+        "events": "^3.3.0",
+        "parcel": "^2.6.2",
+        "process": "^0.11.10",
+        "stream-http": "^3.2.0",
+        "url": "^0.11.3"
+    },
+    "dependencies": {
+        "@cubejs-client/core": "^0.31.0",
+        "chart.js": "^4.0.0",
+        "cors": "^2.8.5",
+        "glob": "^10.3.6",
+        "jQuery": "^1.7.4"
+    }
+}

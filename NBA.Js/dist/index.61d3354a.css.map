@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA;;;;;AAKA","sources":["src/index.css"],"sourcesContent":["table, th, td {\r\n    border: 1px solid;\r\n}\r\n\r\nimg {\r\n    height: 100px;\r\n    width: 100px;\r\n}\r\n\r\n.nba-teams {\r\n    margin: 0 0 0 10%;\r\n    width: 100%;\r\n}"],"names":[],"version":3,"file":"index.61d3354a.css.map","sourceRoot":"/__parcel_source_root/"}

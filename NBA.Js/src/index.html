@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  
+<head>
+  <link rel="stylesheet" href="/src/index.css">
+  <script type="module" src="index.js"></script>
+  <script type="module" src="chart.js"></script>
+  <title>SBS Claims Test</title>
+</head>
+
+<body>
+  <div class="nba-teams" onload="GetNBATeams()">
+    <table style="border: 1px solid;" class="nba-teams-table" id="nba-teams-table">
+      <tr style="text-align: center;" class="nba-teams-headers">
+        <th>Name</th>
+        <th>Stadium</th>
+        <th>Logo</th>
+        <th>MVP</th>
+        <th>Played</th>
+        <th>Won</th>
+        <th>Lost</th>
+        <th>Played Home</th>
+        <th>Played Away</th>
+        <th>Biggest Win</th>
+        <th>Biggest Loss</th>
+        <th>Last Game Stadium</th>
+        <th>Last Game Date</th>
+      </tr>
+    </table>
+  </div>
+
+  <div style="margin:auto; width:70%;""><canvas id="chart"></canvas></div>
+  
+
+
+</body>
+
+</html>
